@@ -416,3 +416,272 @@ gap: 20px;
 }
 
 
+/* responsive media query */
+
+@media screen and (max-width: 430px){
+    /* Navbar adjustments */
+    .navbar {
+        flex-direction: row; 
+        justify-content: space-between; 
+        align-items: center;
+        padding-top: 15px; 
+        padding-bottom: 15px;
+        padding-left: 15px; 
+        padding-right: 15px;
+    }
+    
+    .nav-links { 
+        display: flex; 
+        flex-direction: row; 
+        align-items: center;
+        padding: 0;
+        margin: 0;
+    }
+    .home-btn, 
+    .shp-btn, 
+    .nav-links li:nth-child(3) { 
+        display: none;
+    }
+    .cart-btn {
+        display: block; 
+        margin: 0; 
+        padding: 0; 
+        font-size: 14px; 
+    }
+    .logo-one {
+        width: 100px; 
+        height: auto;
+    }
+
+
+    /* Fresh section adjustments */
+    .fresh {
+        flex-direction: column; 
+        align-items: flex-start; 
+        text-align: left; 
+        margin-top: 60px; 
+        padding: 0 15px; 
+    }
+    .fresh-image-container {
+        order: -1;
+        width: 100%; 
+        text-align: center;  
+        margin-bottom: 20px; 
+    }
+    .fresh-pic {
+        margin-top: 0; 
+        max-width: 90%; 
+        margin-left: auto; 
+        margin-right: auto; 
+    }
+    .fresh-text-content { 
+        width: 100%; 
+        margin-top: 0; 
+        text-align: left; 
+    }
+    .fresh-title {
+        font-size: 32px; 
+        line-height: 1.2;
+    }
+    .sub-title {
+        font-size: 16px; 
+        line-height: 1.5;
+    }
+
+
+    /* Plant section adjustments */
+    .plants {
+        padding: 0 15px; 
+        margin-top: 60px; 
+    }
+    .plants-cards-grid {
+        grid-template-columns: 1fr;
+        gap: 15px; 
+    }
+    .plant-card { 
+        width: 100%; 
+        display: flex; 
+        flex-direction: column; 
+        align-items: center; 
+        box-sizing: border-box;
+    }
+    .plant-card img { 
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+    .plants-title, .plants-sub-title {
+        font-size: 32px; 
+    }
+    .plants-sub-title {
+        font-size: 16px; 
+        margin-bottom: 30px; 
+    }
+    .flower-name, .price {
+        font-size: 18px;
+    }
+    .cart-button {
+        padding: 15px 40px; 
+        font-size: 14px;
+    }
+
+
+    /* Plants lover section adjustments */
+    .plants-love {
+        flex-direction: column; 
+        align-items: flex-start; 
+        text-align: left; 
+        margin-top: 80px;
+        padding: 0 15px; 
+        gap: 30px; 
+    }
+    .man { 
+        order: -1; 
+        width: 100%; 
+        text-align: center; 
+        margin-bottom: 20px; 
+    }
+    .man-img {
+        max-width: 90%; 
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .plants-lover-title h4 {
+        font-size: 32px; 
+        margin-top: 0; 
+    }
+    .plants-lover-title-content { 
+        text-align: left; 
+        width: 100%; 
+    }
+    .list-items {
+        text-align: left;
+        max-width: 100%; 
+        margin: 15px 0 0 0; 
+        font-size: 16px; 
+    }
+    .list-items li {
+        padding-left: 25px;
+        margin-bottom: 8px;
+    }
+    
+
+
+    /* Deals section adjustments */
+    .deals {
+        margin-top: 80px;
+        margin-bottom: 80px;
+        padding: 0 15px; 
+    }
+    .deals-title {
+        font-size: 32px;
+    }
+    .deals-subtitle {
+        font-size: 16px;
+    }
+
+
+    /* Various plant section adjustments */
+    .various-plant {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 80px;
+        margin-bottom: 80px;
+        padding: 0 15px; 
+        gap: 15px; 
+    }
+    .left-column, .right-column {
+        width: 100%;
+        min-width: unset;
+        flex: unset;
+    }
+    .card-small, .card-large {
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+        min-height: 150px; 
+    }
+    .card-small {
+        height: 160px; 
+    }
+    .card-large {
+        height: 250px; 
+    }
+    .discount {
+        font-size: 18px;
+    }
+    .discount-2 {
+        font-size: 28px; 
+    }
+    .shop-now, .shop-now-2 {
+        font-size: 14px;
+    }
+
+
+    /* End section adjustments */
+    .end-section {
+        padding: 60px 15px; 
+        min-height: 300px; 
+        margin-top: 40px;
+    }
+    .end-content {
+        padding: 15px;
+    }
+    .end-heading {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+    .end-form {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .end-input, .subscribe-button {
+        width: 100%;
+        max-width: 100%;
+        padding: 12px 15px; 
+        font-size: 14px;
+    }
+
+
+    /* Footer adjustments */
+    .main-footer {
+        padding: 40px 15px; 
+    }
+    .footer-container {
+        flex-direction: column;
+        align-items: flex-start; 
+        text-align: left; 
+        gap: 30px; 
+    }
+    .footer-brand, .footer-links-group, .footer-social {
+        width: 100%;
+        max-width: 100%;
+        text-align: left; 
+    }
+    .footer-logo {
+        max-width: 120px; 
+    }
+    .footer-description {
+        font-size: 16px; 
+    }
+    .footer-links-group {
+        flex-direction: column;
+        gap: 15px; 
+        align-items: flex-start; 
+    }
+    .footer-links li {
+        margin-bottom: 15px; 
+    }
+    .footer-links a {
+        font-size: 14px;
+    }
+    .footer-social {
+        justify-content: flex-start; 
+    }
+    .footer-social img {
+        width: 28px; 
+        height: 28px;
+    }
+}
+
+
