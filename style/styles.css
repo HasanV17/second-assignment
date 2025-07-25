@@ -345,5 +345,74 @@ gap: 20px;
     font-weight:600;
 
 }
+/* Footer Section Styles */
+.main-footer {
+    background-color: #f0f2f5;
+    padding: 60px 20px;
+    font-family: Arial, sans-serif;
+    color: #6B7280;
+}
+
+.footer-container {
+    max-width: 1140px;
+    margin: 0 auto; 
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+    gap: 40px; 
+}
+
+.footer-brand {
+    flex: 1; 
+    min-width: 250px; 
+    max-width: 350px;
+}
+
+.footer-logo {
+    max-width: 150px; 
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.footer-description {
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 1.6;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 0px;
+}
+
+.footer-links-group {
+    display: flex;
+    gap: 80px; 
+    flex-wrap: wrap; 
+    flex: 2; 
+    min-width: 300px; 
+    justify-content: space-around; 
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    margin-bottom: 32px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #6B7280;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+
+.footer-social {
+    display: flex;
+    gap: 15px; 
+    align-items:flex-start;
+}
 
 
