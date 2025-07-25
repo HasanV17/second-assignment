@@ -40,6 +40,39 @@ nav ul{
     margin-right: 5px;
 }
 
+/*fresh style*/
+.fresh{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    max-width: 1140px; 
+    margin: 0 auto;    
+    padding: 0 20px;   
+    box-sizing: border-box;
+    
+}
+.fresh-title{
+    font-family: serif;
+    font-weight: bold;
+    font-size: 55px;
+    margin-bottom: 0;
+    margin-top: 162px; 
+}
+.sub-title{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+.sec-color{
+    color: #E95A08;
+}
+.fresh-pic{
+    width: 100%;
+    height: auto;
+    margin-top: 109px;
+}
 
 
 
